@@ -1,4 +1,4 @@
-import { registerRootComponent } from 'expo';
+import { registerRootComponent } from 'expo'; //(ChatGPT, OpenAI, 2024)
 import Navigation from './navigation'; 
 
 const App = () => {
@@ -8,5 +8,5 @@ const App = () => {
   );
 };
 
-// Register the main component
+// Register the main component. (ChatGPT, OpenAI, 2024) - installation didnt inclue the app.js file, it was on Index.tsx which i didnt like.
 registerRootComponent(App);

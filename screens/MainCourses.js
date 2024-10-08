@@ -38,6 +38,7 @@ const MainMenu = [
   { name: "Wild Mushroom Risotto", price: "R180" },
   { name: "Spinach and Ricotta Stuffed Shells", price: "R170" }
 ];
+//
 
 export default function MainCourses({ navigation }) { 
   return (

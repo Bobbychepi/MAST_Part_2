@@ -16,8 +16,8 @@ const Stack = createNativeStackNavigator();
 
 export default function Navigation() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false }}>
+    <NavigationContainer> {/*(IIE, 2024)*/}
+      <Stack.Navigator screenOptions={{ headerShown: false }}> {/*(ChatGPT, 2024)*/}
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Starters" component={StartersScreen} />
         <Stack.Screen name="MainCourses" component={MainCourses} />
@@ -26,7 +26,7 @@ export default function Navigation() {
         <Stack.Screen name="Drinks" component={Drinks} /> 
         <Stack.Screen name="Sides" component={SidesScreen} /> 
         <Stack.Screen name="ChefMenu" component={ChefMenu} /> 
-        
+        {/*(IIE, 2024)*/}
 
 
 
