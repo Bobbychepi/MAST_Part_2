@@ -1,3 +1,7 @@
+GitHub Repository link: https://github.com/Bobbychepi/MAST_Part_2.git 
+ 
+Youtube Video Link: https: https://youtu.be/erTFV7kECC0?si=hxjO8j6P_w7dHGwo 
+
 *REFERENCE LIST*
 
 ChatGPT, OpenAI, 2024.
