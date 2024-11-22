@@ -3,7 +3,9 @@ import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import * as Icon from "react-native-feather";
-import Categories from "../components/categrories"; 
+import Categories from "../components/categories"; 
+import { calculateAveragePrice } from '../utils/averagePrice';
+
 
 const MainMenu = [
   { name: "Beef Wellington", price: "R400" },
@@ -82,6 +84,8 @@ export default function MainCourses({ navigation }) {
       </ScrollView>
     </SafeAreaView>
   );
+  const averagePrice = calculateAveragePrice(MainMenu);
+
 }
 
 const styles = StyleSheet.create({

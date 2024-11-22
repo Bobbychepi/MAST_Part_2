@@ -50,11 +50,11 @@ const styles = StyleSheet.create({
   },
   categoryButton: {
     padding: 15,
-    borderRadius: 20,
-    backgroundColor: '#D3B395',
+    borderRadius: 13,
+    backgroundColor: '#AFD1F1',
     shadowColor: '#000', 
     shadowOpacity: 0.25,
-    shadowRadius: 3,
+    shadowRadius: 15,
 
   },
   categoryText: {

@@ -1,10 +1,9 @@
-import { registerRootComponent } from 'expo'; //(ChatGPT, OpenAI, 2024)
+import { registerRootComponent } from 'expo'; 
 import Navigation from './navigation'; 
 
 const App = () => {
   return (
     <Navigation />
-    
   );
 };
 

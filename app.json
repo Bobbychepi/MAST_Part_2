@@ -32,6 +32,8 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "entryPoint": "./App.js",
+    "main": "HomeScreen.js"
   }
 }

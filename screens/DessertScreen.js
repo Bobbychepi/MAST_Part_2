@@ -3,7 +3,7 @@ import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
 import * as Icon from "react-native-feather";
-import Categories from "../components/categrories"; 
+import Categories from "../components/categories"; 
 
 const DessertMenu = [
     { name: "Chocolate Lava Cake", price: "R100" },

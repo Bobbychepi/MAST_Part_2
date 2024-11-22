@@ -9,6 +9,8 @@ import SpecialsScreen from "./screens/SpecialsScreen";
 import Drinks from "./screens/Drinks";
 import SidesScreen from "./screens/SidesScreen";
 import ChefMenu from "./screens/ChefMenu";
+import Cart from "./screens/CartScreen";
+import Filter from "./screens/FilterScreen";
 
 
 
@@ -16,8 +18,8 @@ const Stack = createNativeStackNavigator();
 
 export default function Navigation() {
   return (
-    <NavigationContainer> {/*(IIE, 2024)*/}
-      <Stack.Navigator screenOptions={{ headerShown: false }}> {/*(ChatGPT, 2024)*/}
+    <NavigationContainer>
+      <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Starters" component={StartersScreen} />
         <Stack.Screen name="MainCourses" component={MainCourses} />
@@ -26,11 +28,8 @@ export default function Navigation() {
         <Stack.Screen name="Drinks" component={Drinks} /> 
         <Stack.Screen name="Sides" component={SidesScreen} /> 
         <Stack.Screen name="ChefMenu" component={ChefMenu} /> 
-        {/*(IIE, 2024)*/}
-
-
-
-
+        <Stack.Screen name="cartScreen" component={Cart} /> 
+        <Stack.Screen name="FilterScreen" component={Filter} /> 
       </Stack.Navigator>
     </NavigationContainer>
   );
